@@ -19,8 +19,6 @@ public class Producte {
     }
 
     public String toString() {
-        // Retorna un format tipus: "Producte: Teclat - 45.5€"
         return String.format("Producte: %-15s | Preu: %.2f€", nom, preu);
     }
-
 }
